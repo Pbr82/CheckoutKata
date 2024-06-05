@@ -1,12 +1,7 @@
-namespace CheckOut_Tests
+namespace CheckoutKata_Tests
 {
     public class Checkout_Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
         public void Test1()
         {
