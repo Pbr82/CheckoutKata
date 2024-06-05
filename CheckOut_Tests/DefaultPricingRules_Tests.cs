@@ -49,6 +49,12 @@ namespace CheckoutKata_Tests
                      "D", "D", "A", "C", "B",
                      "A", "D", "B", "A", "D",
                      "A", "C", "C", "D"}).Returns(505);
+
+                // invalid items
+                yield return new TestCaseData(new List<string>(){"X", "Y", "Z"}).Returns(0);
+
+                // invalid items + valid items
+                yield return new TestCaseData(new List<string>(){"X", "A", "Y", "A", "Z", "A", "B"}).Returns(160);
             }
         }
     }
