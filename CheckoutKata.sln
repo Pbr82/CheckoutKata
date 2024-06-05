@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutKata", "CkeckoutKata\CheckoutKata.csproj", "{1255F386-69D3-4FC2-A3C4-33645F03B8ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckoutKata", "CheckoutKata\CheckoutKata.csproj", "{1255F386-69D3-4FC2-A3C4-33645F03B8ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutKata_Tests", "CheckOut_Tests\CheckoutKata_Tests.csproj", "{3946949A-338E-4A1F-B73C-C653E4E9CC41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckoutKata_Tests", "Checkout_Tests\CheckoutKata_Tests.csproj", "{3946949A-338E-4A1F-B73C-C653E4E9CC41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
